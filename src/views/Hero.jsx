@@ -1,4 +1,4 @@
-// import React from 'react'
+import Nav from "../components/Nav";
 
 const Hero = () => {
   const desc1 = "FRONTEND";
@@ -8,7 +8,9 @@ const Hero = () => {
   const aboutMe3 = `🌟 I'm currently open to new opportunities and excited to work on projects that challenge me and push me to grow.`;
 
   return (
-    <div>
+    <div className="hero">
+      <Nav />
+
       <header className="header">
         <div className="header-descriptions">
           <div className="header-description">
