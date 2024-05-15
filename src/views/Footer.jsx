@@ -1,5 +1,3 @@
-// import React from 'react'
-
 import FooterButton from "../components/FooterButton";
 
 const Footer = () => {
@@ -8,7 +6,7 @@ const Footer = () => {
   const seyiFolio = "https://www.seyi.dev/";
   return (
     <div>
-      <footer className="footer">
+      <footer className="footer" id="footer">
         <div className="footer-email">
           <p>{emailName}</p>
           <p>{emailDomain}</p>
