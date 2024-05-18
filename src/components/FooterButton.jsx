@@ -1,12 +1,17 @@
 // import React from 'react'
-import socials from "../constant";
+import data from "../constant";
 
 const FooterButton = () => {
   return (
     <div className="socials-container">
-      {socials.map((social, index) => {
+      {data.socials.map((social, index) => {
         return (
-          <a href={social.link} key={index}>
+          <a
+            href={social.link}
+            key={index}
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             {social.name}
           </a>
         );

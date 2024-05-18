@@ -17,4 +17,26 @@ const socials = [
   },
 ];
 
-export default socials;
+const projects = [
+  {
+    name: "FASHUUUN",
+    link: "https://fashuuun.vercel.app/",
+    stack: ["React", "Tailwind CSS", "Supabase", "Redux toolkit"],
+    github: "https://github.com/aaade-pm/FASHUUUN/tree/main/fashion-store",
+  },
+  {
+    name: "OUNJE",
+    link: "https://ounje.vercel.app/",
+    stack: ["React", "framer-motion", "Axios"],
+    github: "https://github.com/aaade-pm/ounje/tree/master/food-to-prepare",
+  },
+  {
+    name: "SNEAKERS",
+    link: "https://sneakers-neon.vercel.app/",
+    stack: ["React"],
+    github:
+      "https://github.com/aaade-pm/ecommerce-product-page/tree/master/store",
+  },
+];
+
+export default { socials, projects };

@@ -9,8 +9,8 @@ const Hero = () => {
 
   return (
     <div className="hero">
+      <div className="scroll-watcher"></div>
       <Nav />
-
       <header className="header">
         <div className="header-descriptions">
           <div className="header-description">

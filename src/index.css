@@ -15,6 +15,25 @@
 
 /* desktop hero stylings */
 
+.scroll-watcher {
+  position: fixed;
+  top: 0;
+  height: 6px;
+  background-color: var(--text-color);
+  width: 100%;
+  z-index: 1000;
+  scale: 0 1;
+  transform-origin: left;
+  animation: scroll-watcher linear;
+  animation-timeline: scroll();
+}
+
+@keyframes scroll-watcher {
+  to {
+    scale: 1 1;
+  }
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -28,6 +47,7 @@
   align-items: center;
   gap: 5%;
   padding: 2%;
+  margin-bottom: 10%;
 }
 
 .header-name {
@@ -92,6 +112,54 @@
 }
 
 .contact button:hover {
+  background-color: var(--white);
+  color: var(--background-color);
+}
+
+section a {
+  text-decoration: none;
+}
+
+section h1 {
+  font-size: 6.5rem;
+  font-weight: 700;
+}
+
+section h1:hover {
+  color: var(--white);
+  transition: 1.5s ease-in-out;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  position: relative;
+  border-top: 1px solid var(--text-color);
+  border-bottom: 1px solid var(--text-color);
+  margin: 0 2%;
+}
+
+.project-info {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  position: absolute;
+  top: 10%;
+}
+
+.view-on-github a {
+  border: 1px solid var(--white);
+  border-radius: 45px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.view-on-github a:hover {
   background-color: var(--white);
   color: var(--background-color);
 }
@@ -200,6 +268,26 @@
     margin-left: 0;
   }
 
+  section h1 {
+    font-size: 3.8rem;
+    font-weight: 900;
+    padding: 20px auto;
+  }
+
+  .project {
+    padding: 90px;
+  }
+
+  .project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: transparent;
+    height: 90%;
+    left: 3%;
+    top: 3%;
+  }
+
   /* mobile footer styling */
   .footer {
     height: 250px;
@@ -280,6 +368,26 @@
   .contact button {
     font-size: 1.2rem;
     margin-left: 0;
+  }
+
+  section h1 {
+    font-size: 4.8rem;
+    font-weight: 900;
+    padding: 20px auto;
+  }
+
+  .project {
+    padding: 90px;
+  }
+
+  .project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: transparent;
+    height: 90%;
+    left: 3%;
+    top: 3%;
   }
 
   /* mobile footer styling */
