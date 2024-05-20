@@ -21,9 +21,11 @@ const Projects = () => {
                 </a>
               </div>
             </div>
-            <a href={project.link} target="_blank" rel="noreferrer noopener">
-              <h1>{project.name}</h1>
-            </a>
+            <div className="project-link">
+              <a href={project.link} target="_blank" rel="noreferrer noopener">
+                <h1>{project.name}</h1>
+              </a>
+            </div>
           </div>
         ))}
       </section>
