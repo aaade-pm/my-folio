@@ -83,7 +83,7 @@
 }
 
 .header-description h1 {
-  font-family: "Bebas Neue", cursive;
+  font-family: "Bebas Neue", serif;
   font-size: 13.4rem;
   font-weight: 900;
   background-color: transparent;
@@ -98,7 +98,7 @@
 }
 
 .front-end h1 {
-  font-family: "Bebas Neue", cursive;
+  font-family: "Bebas Neue", serif;
   font-size: 13.4rem;
   font-weight: 900;
   background-color: transparent;
@@ -325,7 +325,7 @@ section h1:hover {
   }
 
   .front-end h1 {
-    font-family: "Bebas Neue", cursive;
+    font-family: "Bebas Neue", serif;
     margin-top: 20px;
     font-size: 50px;
     font-weight: 200;
@@ -471,7 +471,7 @@ section h1:hover {
   }
 
   .front-end h1 {
-    font-family: "Bebas Neue", cursive;
+    font-family: "Bebas Neue", serif;
     margin-top: 20px;
     font-size: 50px;
     font-weight: 200;
