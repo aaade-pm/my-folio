@@ -19,16 +19,16 @@ const socials = [
 
 const projects = [
   {
-    name: "FASHUUUN",
-    link: "https://fashuuun.vercel.app/",
-    stack: ["React", "Tailwind CSS", "Supabase", "Redux toolkit"],
-    github: "https://github.com/aaade-pm/FASHUUUN/tree/main/fashion-store",
+    name: "Vibrant Homes",
+    link: "https://vibrant-homes.vercel.app/",
+    stack: ["React", "Tailwind CSS", "Gsap", "React Router"],
+    github: "https://github.com/aaade-pm/vibrant-homes",
   },
   {
-    name: "OUNJE",
-    link: "https://ounje.vercel.app/",
-    stack: ["React", "framer-motion", "Axios"],
-    github: "https://github.com/aaade-pm/ounje/tree/master/food-to-prepare",
+    name: "Eyiyemi-Folio",
+    link: "https://eyiyemi.vercel.app/",
+    stack: ["React", "Tailwind CSS", "React Router"],
+    github: "https://github.com/aaade-pm/eyiyemi-folio",
   },
   {
     name: "SNEAKERS",
